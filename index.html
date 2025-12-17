@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alkhidmat Disaster Management Services</title>
+    <meta name="description"
+        content="Alkhidmat Foundation Pakistan provides humanitarian assistance and emergency response services to those affected by disasters and crises." />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-green': '#008f51',
+                        'primary-yellow': '#FFCB11',
+                        'primary-red': '#da291c',
+                        'text-dark': '#333333',
+                        'text-light': '#666666',
+                        'bg-light': '#f9f9f9',
+                    },
+                    fontFamily: {
+                        heading: ['Outfit', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    },
+                    maxWidth: {
+                        'container': '1200px',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-body text-text-dark bg-white antialiased">
+
+
+    <section class="mb-10 relative">
+        <!-- Using a placeholder image or a generated one would be better, but for now specific styling -->
+        <div class="hero-banner flex items-center justify-center bg-cover bg-center h-[500px] relative"
+            style="background-image: url('images/disaster-banner.webp');">
+            <div class="absolute inset-0 bg-black/40">
+            </div>
+            <div class="container max-w-container mx-auto px-5 relative h-full flex items-center">
+                <div class="text-center w-full">
+                    <h1 class="text-white text-5xl font-bold font-heading">Disaster Management</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="py-[60px] bg-white text-center">
+            <div class="container max-w-container mx-auto px-5">
+                <div>
+                    <div class="mb-10">
+                        <h2 class="text-[2.5rem] font-bold font-heading mb-4 text-text-dark">Our <span
+                                class="text-[#e6a800]"> Services</span></h2>
+                    </div>
+                    <div>
+                        <ul class="flex justify-center gap-5 flex-wrap items-center">
+                            <li
+                                class="bg-bg-light px-6 py-4 rounded-lg border border-[#ddd] flex items-center gap-2.5 transition-all duration-300 hover:border-primary-green hover:-translate-y-0.5 hover:shadow-lg group">
+                                <input type="checkbox" id="test0" name="radio-group"
+                                    class="peer accent-primary-green cursor-pointer" />
+                                <label for="test0"
+                                    class="cursor-pointer peer-checked:text-primary-green peer-checked:font-bold transition-colors">Tarpaulin
+                                    <strong class="text-[#e6a800]">PKR
+                                        3,000</strong></label>
+                            </li>
+                            <li
+                                class="bg-bg-light px-6 py-4 rounded-lg border border-[#ddd] flex items-center gap-2.5 transition-all duration-300 hover:border-primary-green hover:-translate-y-0.5 hover:shadow-lg group">
+                                <input type="checkbox" id="test1" name="radio-group"
+                                    class="peer accent-primary-green cursor-pointer" />
+                                <label for="test1"
+                                    class="cursor-pointer peer-checked:text-primary-green peer-checked:font-bold transition-colors">Shelter
+                                    Tent <strong class="text-[#e6a800]">PKR
+                                        25,000</strong></label>
+                            </li>
+                            <li><button type="button"
+                                    class="inline-block px-5 py-2.5 rounded font-semibold text-center transition-all duration-300 hover:opacity-90 hover:-translate-y-[2px] bg-primary-red text-white">Donate
+                                    Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-[60px] bg-[#f4f6f8]">
+            <div class="container max-w-container mx-auto px-5">
+                <ul class="grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-[30px] text-center">
+                    <li>
+                        <div
+                            class="bg-white p-[30px_20px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-transform duration-300 h-full flex flex-col justify-center items-center hover:-translate-y-[5px]">
+                            <div class="flex flex-col gap-2.5"><strong
+                                    class="text-[2rem] text-primary-green font-bold">69,706</strong><span
+                                    class="text-text-light font-medium">Volunteers</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div
+                            class="bg-white p-[30px_20px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-transform duration-300 h-full flex flex-col justify-center items-center hover:-translate-y-[5px]">
+                            <div class="flex flex-col gap-2.5"><strong
+                                    class="text-[2rem] text-primary-green font-bold">5,656</strong><span
+                                    class="text-text-light font-medium">Shelter
+                                    Homes</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div
+                            class="bg-white p-[30px_20px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-transform duration-300 h-full flex flex-col justify-center items-center hover:-translate-y-[5px]">
+                            <div class="flex flex-col gap-2.5"><strong
+                                    class="text-[2rem] text-primary-green font-bold">59,074</strong><span
+                                    class="text-text-light font-medium">Ration
+                                    Packages</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div
+                            class="bg-white p-[30px_20px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-transform duration-300 h-full flex flex-col justify-center items-center hover:-translate-y-[5px]">
+                            <div class="flex flex-col gap-2.5"><strong
+                                    class="text-[2rem] text-primary-green font-bold">41</strong><span
+                                    class="text-text-light font-medium">Response
+                                    Hubs</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div
+                            class="bg-white p-[30px_20px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-transform duration-300 h-full flex flex-col justify-center items-center hover:-translate-y-[5px]">
+                            <div class="flex flex-col gap-2.5"><strong
+                                    class="text-[2rem] text-primary-green font-bold">83</strong><span
+                                    class="text-text-light font-medium">Trainings/Workshops</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div
+                            class="bg-white p-[30px_20px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] transition-transform duration-300 h-full flex flex-col justify-center items-center hover:-translate-y-[5px]">
+                            <div class="flex flex-col gap-2.5"><strong
+                                    class="text-[2rem] text-primary-green font-bold">1,102,019</strong><span
+                                    class="text-text-light font-medium">Total
+                                    Beneficiaries</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="py-[60px]">
+            <div class="container max-w-container mx-auto px-5">
+                <div class="mb-10 text-center">
+                    <h2 class="text-[2.5rem] font-bold font-heading text-text-dark"><strong>Success <span
+                                class="text-[#e6a800]">Stories</span></strong></h2>
+                </div>
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[30px]">
+                    <!-- Using placeholders for iframes to avoid loading heavy external content for now, or keep them if user wants -->
+                    <div class="rounded-[10px] overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.1)]">
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/gxaQY2am9Co"
+                            frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="rounded-[10px] overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.1)]">
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/TEgIonP0N8U"
+                            frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="rounded-[10px] overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.1)]">
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/xukeXy0rNXQ"
+                            frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-[80px] bg-white text-center">
+            <div class="container max-w-container mx-auto px-5">
+                <div class="mb-10">
+                    <h2 class="text-[2.5rem] font-bold font-heading text-text-dark"><strong>Alkhidmat Disaster <span
+                                class="text-[#e6a800]">Management </span>Services</strong>
+                    </h2>
+                </div>
+                <div class="max-w-[800px] mx-auto mb-[50px]">
+                    <p class="mb-5 text-[1.1rem] text-text-light">At Alkhidmat Foundation Pakistan, we are committed to
+                        providing humanitarian assistance
+                        and emergency response services to those affected by disasters and crises. Our disaster
+                        preparedness and relief operations are designed to quickly and effectively respond to
+                        the needs of people affected by natural disasters, conflicts, and other emergencies.</p>
+                    <p class="mb-5 text-[1.1rem] text-text-light">Our refugee support programs provide vital assistance
+                        to refugees and displaced persons,
+                        while our crisis management and conflict resolution initiatives help to promote
+                        stability and security in affected areas.</p>
+                    <strong class="text-[#e6a800] border-b-2 border-[#e6a800] pb-1">The best amongst you is the one who
+                        helps
+                        others.</strong>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-[30px]">
+                    <div
+                        class="relative bg-bg-light rounded-[10px] overflow-hidden h-[300px] flex items-end shadow-[0_4px_15px_rgba(0,0,0,0.05)] group">
+                        <div class="w-full h-full bg-[#e0e0e0] flex items-center justify-center">
+                            <div> <img src="/images/Alkhidmat Disaster Management Services/shelthome.webp" alt=""
+                                    class="max-w-full h-auto"></div>
+                            <!-- Hover effect is not fully replicated without custom group-hover logic or JS, keeping static for now or adding simple hover -->
+                        </div>
+                        <span
+                            class="absolute bottom-0 left-0 w-full p-[15px] bg-white/90 font-bold text-center z-10 text-text-dark">Shelter
+                            Homes</span>
+                    </div>
+                    <div
+                        class="relative bg-bg-light rounded-[10px] overflow-hidden h-[300px] flex items-end shadow-[0_4px_15px_rgba(0,0,0,0.05)] group">
+                        <div class="w-full h-full bg-[#e0e0e0] flex items-center justify-center">
+                            <div> <img src="/images/Alkhidmat Disaster Management Services/Ration Packages.webp" alt=""
+                                    class="max-w-full h-auto">
+                            </div>
+                        </div>
+                        <span
+                            class="absolute bottom-0 left-0 w-full p-[15px] bg-white/90 font-bold text-center z-10 text-text-dark">Ration
+                            Packages</span>
+                    </div>
+                    <div
+                        class="relative bg-bg-light rounded-[10px] overflow-hidden h-[300px] flex items-end shadow-[0_4px_15px_rgba(0,0,0,0.05)] group">
+                        <div class="w-full h-full bg-[#e0e0e0] flex items-center justify-center">
+                            <div> <img src="/images/Alkhidmat Disaster Management Services/Response Hubs.webp" alt=""
+                                    class="max-w-full h-auto">
+                            </div>
+                        </div>
+                        <span
+                            class="absolute bottom-0 left-0 w-full p-[15px] bg-white/90 font-bold text-center z-10 text-text-dark">Response
+                            Hubs</span>
+                    </div>
+                    <div
+                        class="relative bg-bg-light rounded-[10px] overflow-hidden h-[300px] flex items-end shadow-[0_4px_15px_rgba(0,0,0,0.05)] group">
+                        <div class="w-full h-full bg-[#e0e0e0] flex items-center justify-center">
+                            <div> <img src="/images/Alkhidmat Disaster Management Services/Volunteers.webp" alt=""
+                                    class="max-w-full h-auto">
+                            </div>
+                        </div>
+                        <span
+                            class="absolute bottom-0 left-0 w-full p-[15px] bg-white/90 font-bold text-center z-10 text-text-dark">Volunteers</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
