@@ -8,6 +8,16 @@
     <title>Alkhidmat Disaster Management Services</title>
     <meta name="description"
         content="Alkhidmat Foundation Pakistan provides humanitarian assistance and emergency response services to those affected by disasters and crises." />
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -32,6 +42,22 @@
                 }
             }
         }
+            tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-blue': '#0060AE',
+                        'brand-dark': '#042646',
+                        'brand-gradient-start': '#1584C3',
+                        'brand-gradient-end': '#1C4CA0',
+                    },
+                    fontFamily: {
+                        sora: ['Sora', 'sans-serif'],
+                        poppins: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
     </script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,6 +66,200 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700&display=swap"
         rel="stylesheet">
 </head>
+
+   
+  
+  
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow">
+      <!-- Top bar -->
+<div class="flex justify-between items-center px-4 py-2 text-sm bg-[#0060AE]">
+  <!-- Left side: Contact info -->
+  <div class="flex items-center space-x-4">
+    <span class="text-[#ffffff] flex items-center">
+      📧 info@alkhidmat.org
+    </span>
+    <span class="text-[#ffffff] flex items-center">
+      📞 0800 44448
+    </span>
+  </div>
+  <!-- Right side: Social icons + Buttons  -->
+  <div class="flex items-center space-x-4">
+    <!-- Social icons -->
+    <div class="flex space-x-3 text-[#ffffff]">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <!-- Buttons -->
+    <a href="#" class="bg-red-600 text-white px-3 py-1 rounded text-xs font-medium hover:bg-red-700">
+      Give Zakat
+    </a>
+    <a href="#" class="bg-[ffffff] text-white px-3 py-1 rounded text-xs font-medium hover:bg-gray-700">
+      International Partners
+    </a>
+  </div>
+</div>
+
+      <!-- Main nav -->
+      <div class="flex justify-between items-center px-6 py-3">
+        <!-- Logo -->
+        <div class="flex items-center space-x-2 border-radius rounded-full">
+          <img
+            src="/src/images/Alkhidmat_Foundation_Pakistan.png"
+            alt="Logo"
+            class="h-12"
+          />
+         
+        </div>
+
+      
+  <style>
+    /* Basic styling */
+    body {
+      font-family: 'inter',sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Top navigation bar */
+    .navbar {
+      display: flex;
+    }
+
+    .navbar > li {
+      list-style: none;
+      position: relative;
+    }
+
+    .navbar > li > a {
+      display: block;
+      padding: 14px 20px;
+      color: rgb(63, 54, 54);
+      text-decoration: none;
+    }
+
+    .navbar > li > a:hover {
+      background-color: #619cf5;
+    }
+
+    /* Dropdown menu */
+    .navbar li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #e6e0e0;
+      min-width: 180px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar li ul li {
+      list-style: none;
+    }
+
+    .navbar li ul li a {
+      display: block;
+      padding: 12px;
+      color: rgb(46, 39, 39);
+      text-decoration: none;
+    }
+
+    .navbar li ul li a:hover {
+     background-color: #9c9a9a;
+    }
+
+    /* Show dropdown on hover */
+    .navbar li:hover ul {
+      display: block;
+    }
+
+    /* Arrow styling */
+    .navbar > li > a::after {
+      content: " ⌄";
+      font-size: 0.8em;
+    }
+  </style>
+
+  <ul class="navbar">
+    <li><a href="#">Appeals</a>
+      <ul>
+        <li><a href="src/pages/apeal for gaza/rebuild-gaza-page.html">Rebuilt Gaza 2026</a></li>
+        <li><a href="#">Palisten Emergency Appeal</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="#">Islamic Giving</a>
+      <ul>
+        <li><a href="src/pages/islamicgivings/zakat.html">Zakat</a></li>
+        <li><a href="#">Sadqah</a></li>
+        <li><a href="#">Fidya</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Our Work</a>
+      <ul>
+        <li><a href="/src/pages/apeal/diseaster management.html">Disaster Management</a></li>
+        <li><a href="/src/pages/health/health.html">Health</a></li>
+        <li><a href="/src/pages/apeal/education/education.html">Education</a></li>
+        <li><a href="#">Wash</a></li>
+          <li><a href="#">Orphan Care Program</a></li>
+        <li><a href="#">Aghosh Home</a></li>
+        <li><a href="#">Islamic Microfinance</a></li>
+        <li><a href="#">Comunity Services</a></li>
+         <li><a href="#">Bano Qabil</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Take Action</a>
+      <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#"> Ways TO Donate</a></li>
+        <li><a href="#">Become a Volunteer</a></li>
+        <li><a href="#">Digital Volunteer</a></li>
+         <li><a href="#">International Partners</a></li>
+          <li><a href="#">Procurement</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Media</a>
+      <ul>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Downloads</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Media Coverage</a></li>
+      </ul>
+    </li>
+  </ul>
+
+
+        <!-- Buttons -->
+        <div class="flex space-x-3">
+          <button class="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-700">
+            Rebuild Gaza 🚨
+          </button>
+          <button class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+            Donate Now ➜
+          </button>
+        </div>
+      </div>
+    </header>
+   <!-- <button class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
+            Give Zakat
+          </button>-->
+
+    <!-- Example JS (Vite will bundle this) -->
+    <script type="module">
+      // Example: Notification icon toggle
+      const donateBtn = document.querySelector("button.bg-blue-600");
+      donateBtn.addEventListener("click", () => {
+        alert("Redirecting to donation page...");
+      });
+    </script>
+ 
 
 <body class="font-body text-text-dark bg-white antialiased">
 
@@ -249,6 +469,206 @@
             </div>
         </section>
     </main>
+   <!-- Footer Wrapper -->
+    <div class="relative mt-24">
+
+        <!-- Floating Newsletter Section -->
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl px-4 z-10">
+            <div
+                class="bg-brand-dark rounded-2xl p-6 lg:p-8 shadow-2xl overflow-hidden relative border-t border-white/10">
+                <!-- Background Pattern -->
+                <div class="absolute top-0 right-0 w-64 h-64 bg-brand-blue/20 rounded-full blur-3xl -mr-16 -mt-16">
+                </div>
+                <div class="absolute bottom-0 left-0 w-64 h-64 bg-brand-blue/20 rounded-full blur-3xl -ml-16 -mb-16">
+                </div>
+
+                <div
+                    class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+                    <div class="max-w-xl">
+                        <h2 class="text-2xl font-sora font-bold text-white mb-2">Newsletter Subscription</h2>
+                        <p class="text-gray-300 font-poppins font-light text-sm leading-relaxed">
+                            Stay connected with Alkhidmat Sahiwal's activities and updates.
+                        </p>
+                    </div>
+                    <form class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                        <input type="email" placeholder="Enter your email"
+                            class="font-poppins px-5 py-3 rounded-lg text-gray-800 bg-white w-full sm:w-72 focus:outline-none focus:ring-4 focus:ring-brand-blue/50 transition-all placeholder-gray-400 text-sm">
+                        <button type="submit"
+                            class="font-sora font-semibold px-6 py-3 bg-brand-blue text-white rounded-lg hover:bg-blue-600 transition-all duration-300 shadow-lg hover:shadow-brand-blue/40 whitespace-nowrap text-sm">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Footer -->
+        <footer
+            class="bg-gradient-to-r from-brand-gradient-start to-brand-gradient-end pt-40 text-white font-poppins relative overflow-hidden">
+
+
+            <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-0">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
+
+                    <!-- Branding & About (4 cols) -->
+                    <div class="lg:col-span-4 space-y-6">
+                        <div class="flex items-center gap-4">
+                            <img src="https://alkhidmat.org/images/footer-logo.svg" alt="Alkhidmat">
+                            <div>
+                                <h2 class="font-sora text-2xl font-bold leading-none">Alkhidmat</h2>
+                                <h3 class="font-sora text-lg font-medium text-blue-200">Foundation</h3>
+                            </div>
+                        </div>
+                        <div
+                            class="inline-flex items-center gap-2 bg-blue-900/40 px-4 py-1.5 rounded-full border border-blue-400/30">
+                            <i class="fas fa-map-marker-alt text-xs text-blue-300"></i>
+                            <span class="text-xs font-semibold tracking-wide uppercase text-blue-100">Sahiwal
+                                Chapter</span>
+                        </div>
+                        <p class="text-blue-50/90 text-sm leading-7 pr-4">
+                            Serving the community of Sahiwal since 1990. Dedicated to humanitarian services including
+                            emergency relief, healthcare, education, and orphan care in the Sahiwal region.
+                        </p>
+
+                        <!-- Social Icons -->
+                        <div class="flex gap-3 pt-2">
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-brand-blue transition-all duration-300 group">
+                                <i class="fab fa-facebook-f group-hover:scale-110 transition-transform"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-brand-blue transition-all duration-300 group">
+                                <i class="fab fa-twitter group-hover:scale-110 transition-transform"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-brand-blue transition-all duration-300 group">
+                                <i class="fab fa-instagram group-hover:scale-110 transition-transform"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white hover:text-brand-blue transition-all duration-300 group">
+                                <i class="fab fa-whatsapp group-hover:scale-110 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links (2 cols) -->
+                    <div class="lg:col-span-2">
+                        <h4
+                            class="font-sora text-lg font-bold mb-6 text-white inline-block border-b-2 border-blue-400/50 pb-2">
+                            Quick Links</h4>
+                        <ul class="space-y-3 font-light text-sm">
+                            <li><a href="#"
+                                    class="text-blue-100 hover:text-white hover:pl-2 transition-all duration-300 flex items-center gap-2"><span
+                                        class="w-1.5 h-1.5 rounded-full bg-blue-400"></span> About Us</a></li>
+                            <li><a href="#"
+                                    class="text-blue-100 hover:text-white hover:pl-2 transition-all duration-300 flex items-center gap-2"><span
+                                        class="w-1.5 h-1.5 rounded-full bg-blue-400"></span> Projects</a></li>
+                            <li><a href="#"
+                                    class="text-blue-100 hover:text-white hover:pl-2 transition-all duration-300 flex items-center gap-2"><span
+                                        class="w-1.5 h-1.5 rounded-full bg-blue-400"></span> Media Center</a></li>
+                            <li><a href="#"
+                                    class="text-blue-100 hover:text-white hover:pl-2 transition-all duration-300 flex items-center gap-2"><span
+                                        class="w-1.5 h-1.5 rounded-full bg-blue-400"></span> Volunteer</a></li>
+                            <li><a href="#"
+                                    class="text-blue-100 hover:text-white hover:pl-2 transition-all duration-300 flex items-center gap-2"><span
+                                        class="w-1.5 h-1.5 rounded-full bg-blue-400"></span> Donate</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Programs (3 cols) -->
+                    <div class="lg:col-span-3">
+                        <h4
+                            class="font-sora text-lg font-bold mb-6 text-white inline-block border-b-2 border-blue-400/50 pb-2">
+                            Our Programs</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3 group">
+                                <i
+                                    class="fas fa-heartbeat mt-1 text-blue-300 group-hover:text-white transition-colors"></i>
+                                <div>
+                                    <a href="#"
+                                        class="font-semibold text-white/90 hover:text-white block transition-colors text-sm">Health
+                                        Services</a>
+                                    <p class="text-xs text-blue-200 mt-1">Free clinics & ambulance service</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 group">
+                                <i
+                                    class="fas fa-graduation-cap mt-1 text-blue-300 group-hover:text-white transition-colors"></i>
+                                <div>
+                                    <a href="#"
+                                        class="font-semibold text-white/90 hover:text-white block transition-colors text-sm">Education
+                                        Support</a>
+                                    <p class="text-xs text-blue-200 mt-1">Scholarships & Alfalah program</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 group">
+                                <i class="fas fa-tint mt-1 text-blue-300 group-hover:text-white transition-colors"></i>
+                                <div>
+                                    <a href="#"
+                                        class="font-semibold text-white/90 hover:text-white block transition-colors text-sm">Clean
+                                        Water</a>
+                                    <p class="text-xs text-blue-200 mt-1">Installation of engaging pumps</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact (3 cols) -->
+                    <div class="lg:col-span-3">
+                        <h4
+                            class="font-sora text-lg font-bold mb-6 text-white inline-block border-b-2 border-blue-400/50 pb-2">
+                            Contact Info</h4>
+                        <div class="bg-blue-900/20 p-5 rounded-2xl border border-white/10 space-y-4 backdrop-blur-sm">
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-map-marked-alt mt-1.5 text-blue-300"></i>
+                                <div>
+                                    <p class="text-sm text-blue-50">Near Clock Tower, College Road, Sahiwal, Pakistan
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-phone-alt text-blue-300"></i>
+                                <div>
+                                    <p class="text-sm font-semibold text-white">+92 40 123 4567</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-envelope text-blue-300"></i>
+                                <div>
+                                    <p class="text-sm text-blue-50">sahiwal@alkhidmat.org</p>
+                                </div>
+                            </div>
+                            <div class="pt-2">
+                                <a href="#"
+                                    class="block text-center bg-white/10 hover:bg-white hover:text-brand-blue text-white text-sm py-2.5 rounded-lg transition-all font-semibold border border-white/20">
+                                    Get Directions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-white/10 relative z-0">
+                <div class="max-w-7xl mx-auto px-6 lg:px-8 py-6">
+                    <div
+                        class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-light text-blue-200">
+                        <p class="text-center md:text-left">
+                            &copy; 2023 Alkhidmat Sahiwal. <span class="hidden sm:inline">|</span> Reg. No.
+                            1234/SWL/1990
+                        </p>
+                        <div class="flex flex-wrap justify-center gap-6">
+                            <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                            <a href="#" class="hover:text-white transition-colors">Terms of Use</a>
+                            <a href="#" class="hover:text-white transition-colors">Sitemap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
 </body>
 
 </html>

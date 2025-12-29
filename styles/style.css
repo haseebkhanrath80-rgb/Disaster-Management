@@ -537,3 +537,19 @@ h6 {
 .ico-tiktok {
     background-color: #000;
 }
+/* Navigation Arrow on Hover */
+     nav ul li::before {
+  content: " ⌃ ";   /* left arrow sign */
+  position: absolute;
+  left: -20px;
+  opacity: 0;
+  transition: opacity 0.3s ease, left 0.3s ease;
+  color: #ffcc00;
+}
+
+nav ul li:hover::before {
+  opacity: 1;
+  left: -30px; /* slide arrow in */
+}
+
+   
